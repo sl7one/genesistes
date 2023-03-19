@@ -70,13 +70,13 @@ export const Course = () => {
       </BackLink>
       <ListItem as="div" isDesktop={isDesktop}>
         <ImgBox>
-          <ReactPlayerComp
+          {/* <ReactPlayerComp
             id={courseId}
             link={meta.courseVideoPreview.link}
             controls="true"
             width="960"
             height="540"
-          />
+          /> */}
         </ImgBox>
 
         <Information>
