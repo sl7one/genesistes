@@ -23,7 +23,7 @@ import { Loader } from '../components/Loader/Loader';
 import { useMediaRules } from '../utils/mediaQueries';
 
 export const Course = () => {
-  const { isMobile, isDesktop } = useMediaRules();
+  const { isDesktop } = useMediaRules();
 
   const { course: id } = useParams();
 

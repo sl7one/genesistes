@@ -10,7 +10,6 @@ import {
   DateWrapper,
   Description,
   Hours,
-  Image,
   ImgBox,
   ImgLabel,
   Information,
@@ -31,7 +30,7 @@ import { Loader } from '../components/Loader/Loader';
 import { useMediaRules } from '../utils/mediaQueries';
 
 export const Main = () => {
-  const { isMobile, isDesktop } = useMediaRules();
+  const { isDesktop } = useMediaRules();
 
   const [page, setPage] = useState(1);
   const [token, setToken] = useState(() => {
