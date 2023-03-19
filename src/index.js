@@ -7,8 +7,10 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <BrowserRouter basename="/genesistest">
-    <App />
-  </BrowserRouter>
+    <BrowserRouter basename="/genesistest">
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
+
+console.log('object');
