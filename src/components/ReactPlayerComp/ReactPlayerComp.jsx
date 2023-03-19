@@ -12,21 +12,19 @@ export const ReactPlayerComp = ({ id, link, width, height }) => {
     store.set('video', { ...store.get('video'), [id]: playedSeconds });
   };
 
+  const onReady = e => {
+    e.seekTo(startPosition);
+  };
+
   return (
     <ReactPlayer
+      onReady={onReady}
       url={`https://cors-proxy.fringe.zone/${link}`}
       controls={true}
       pip={true}
       onProgress={onProgress}
       width={width}
       height={height}
-      config={{
-        file: {
-          hlsOptions: {
-            startPosition,
-          },
-        },
-      }}
     />
   );
 };

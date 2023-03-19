@@ -10,6 +10,7 @@ import {
   DateWrapper,
   Description,
   Hours,
+  Image,
   ImgBox,
   ImgLabel,
   Information,
@@ -101,7 +102,7 @@ export const Main = () => {
         return (
           <ListItem key={id} color={greenPalitra[idx]} isDesktop={isDesktop}>
             <ImgBox>
-              {/* <Image src={previewImageLink + '/cover.webp'} alt={title} /> */}
+              <Image src={previewImageLink + '/cover.webp'} alt={title} />
               <ImgLabel>
                 <Rating>{rating}</Rating>
                 <Icon />

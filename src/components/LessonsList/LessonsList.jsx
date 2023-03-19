@@ -29,7 +29,7 @@ export const LessonsList = ({ list }) => {
             </div>
           </AccordionSummary>
           <AccordionDetails>
-            {/* <ReactPlayerComp id={id} link={link} width="100%" height="100%" /> */}
+            <ReactPlayerComp id={id} link={link} width="100%" height="100%" />
           </AccordionDetails>
         </Accordion>
       );
