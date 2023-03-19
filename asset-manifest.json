@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/genesistest/static/css/main.6f2fbe11.css",
-    "main.js": "/genesistest/static/js/main.cd80a44b.js",
+    "main.js": "/genesistest/static/js/main.ada5b995.js",
     "static/media/icons.svg": "/genesistest/static/media/icons.fc2869ccde11726aff75b217b3a59511.svg",
     "index.html": "/genesistest/index.html",
     "main.6f2fbe11.css.map": "/genesistest/static/css/main.6f2fbe11.css.map",
-    "main.cd80a44b.js.map": "/genesistest/static/js/main.cd80a44b.js.map"
+    "main.ada5b995.js.map": "/genesistest/static/js/main.ada5b995.js.map"
   },
   "entrypoints": [
     "static/css/main.6f2fbe11.css",
-    "static/js/main.cd80a44b.js"
+    "static/js/main.ada5b995.js"
   ]
 }
