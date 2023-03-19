@@ -18,6 +18,7 @@ import {
 import { format, parseISO } from 'date-fns';
 import { LessonsList } from '../components/LessonsList/LessonsList';
 import { BsArrowLeft } from 'react-icons/bs';
+// eslint-disable-next-line
 import { ReactPlayerComp } from '../components/ReactPlayerComp/ReactPlayerComp';
 import { Loader } from '../components/Loader/Loader';
 import { useMediaRules } from '../utils/mediaQueries';
@@ -59,7 +60,16 @@ export const Course = () => {
 
   if (Object.keys(course).length === 0) return;
 
-  const { id: courseId, title, description, launchDate, lessons, meta } = course;
+  const {
+    // eslint-disable-next-line
+    id: courseId,
+    title,
+    description,
+    launchDate,
+    lessons,
+    // eslint-disable-next-line
+    meta,
+  } = course;
 
   return (
     <Container>
