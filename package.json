@@ -2,7 +2,7 @@
   "name": "genesistest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sl7one.github.io/genesistest/",
+  "homepage": "https://sl7one.github.io/genesistest",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
